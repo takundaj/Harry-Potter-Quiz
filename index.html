@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Quiz</title>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="grey lighten-0 center-align">
+      <h1 class="white-text">HARRY POTTER QUIZ</h1>
+      <span class="hide white white-text score-label-container">
+        <h1 class="score-label">0%</h1>
+      </span>
+    </header>
+    <main class="container">
+      <form class="quiz-form" action="">
+        <!-- question 1-->
+        <div class="card">
+          <div class="card-content">
+            <p class="bold black-text card-title">
+              Who was the true master of the elder wand right after dumbledore
+              death?
+            </p>
+            <div class="divider"></div>
+            <label>
+              <input class="with-gap" name="q1" type="radio" value="A" />
+              <span><p class="answer-text">Draco Malfoy</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q1" type="radio" value="B" />
+              <span><p class="answer-text">Professor Snape</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q1" type="radio" value="C" />
+              <span><p class="answer-text">Fenriri Greyback</p></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- question 2-->
+        <div class="card">
+          <div class="card-content">
+            <p class="bold black-text card-title">
+              What must you do infront of a hypogriff before you ride it?
+            </p>
+            <div class="divider"></div>
+            <label>
+              <input class="with-gap" name="q2" type="radio" value="A" />
+              <span><p class="answer-text">Play the flute</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q2" type="radio" value="B" />
+              <span><p class="answer-text">Bow</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q2" type="radio" value="C" />
+              <span><p class="answer-text">Dance</p></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- question 3-->
+        <div class="card">
+          <div class="card-content">
+            <p class="bold black-text card-title">
+              What wand core type is harry's wand?
+            </p>
+            <div class="divider"></div>
+            <label>
+              <input class="with-gap" name="q3" type="radio" value="A" />
+              <span><p class="answer-text">Dragon heart string</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q3" type="radio" value="B" />
+              <span><p class="answer-text">Unicorn hair</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q3" type="radio" value="C" />
+              <span><p class="answer-text">Phoenix feather</p></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- question 3-->
+        <div class="card">
+          <div class="card-content">
+            <p class="bold black-text card-title">
+              whats the counter to the lumos charm?
+            </p>
+            <div class="divider"></div>
+            <label>
+              <input class="with-gap" name="q4" type="radio" value="A" />
+              <span><p class="answer-text">Expelliarum</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q4" type="radio" value="B" />
+              <span><p class="answer-text">Nox</p></span>
+            </label>
+            <label>
+              <input class="with-gap" name="q4" type="radio" value="C" />
+              <span><p class="answer-text">Wingardium leviosa</p></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="container center">
+          <input
+            class="btn waves-effect waves-light"
+            type="submit"
+            value="SUBMIT"
+          />
+        </div>
+      </form>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

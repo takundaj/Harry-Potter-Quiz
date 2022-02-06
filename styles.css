@@ -1,0 +1,47 @@
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+body header {
+  padding: 5rem 0;
+  background-image: url(/Group\ 4.png);
+  background-position: center;
+}
+
+form {
+  padding-top: 2rem;
+}
+
+.col {
+  margin: 5rem 0;
+}
+
+.card {
+  border-radius: 10px;
+  font-size: 1.6rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  margin-bottom: 5rem;
+}
+
+.divider {
+  margin: 1.25rem 0;
+}
+
+label {
+  display: block;
+  margin: 1rem;
+}
+
+.answer-text {
+  font-size: 1.6rem;
+}
+
+.btn {
+  margin: 3rem;
+  font-size: 2rem;
+}
