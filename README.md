@@ -8,7 +8,7 @@
 
 This is a Harry potter Quiz application which asks the user a series of multiple choice quesitons related to the film series. Then once the user submits their answers a score of how many ansers ther got correct is calculated and displayed in the header.
 
-<img src="/hogsmede-desk-banner.jpeg" alt="MarineGEO circle logo" style="height: 250px; width:100%;"/>
+<img src="/readmebanner.png" alt="MarineGEO circle logo" style="height: 150px; width:100%;"/>
 
 
 ## Contributors
